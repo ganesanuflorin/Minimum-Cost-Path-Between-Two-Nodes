@@ -1,0 +1,42 @@
+#Ganesanu Gigi Florin 324CA
+
+-----algo.h-----
+	Un set de functii care au ca scop rezolvarea problemei alese.
+
+-----algo.cpp-----
+	Contine implementarea eficienta a functiilor definite in algo.h
+
+-----in folder-----
+	Acest dosar contine 10 teste. Pe prima linie sunt n (numerul de noduri) 
+si m (numarul de muchii). Pe urmatoarele linii sunt nodul sursa, nodul
+destinatie si costul dintre muchii.
+
+-----out folder-----
+	Contine matricea de adiacenta cu distantele minime dintre noduri. Adica 
+distanta minima de la i la j, daca nu gasesc nicio cale returnez inf.
+
+-----other_tests folder-----
+	Acest folder testeaza daca exista cicluri negative in intrarea 
+algoritmului floyd_warshall si bellman_ford. Testeaza daca exista muchii de cost negative pentru djikstra. Afiseaza "intrare gresita" daca intrarea este gresita. Daca doriti sa testati testele, copiati testul in fisierul "in" si modificati Makefile-ul. In Makefile trebuie sa adaugati numarul testului in fiecare for.
+
+-----generator.cpp-----
+	Genereaza 10 fisiere de intrare aleatorii.
+
+-----tester.cpp-----
+	Ia de la input si apeleaza functia shortest_path_all.
+
+-----algo_floyd_warshall.cpp-----
+	Implementarea algoritmului floyd_warshall.
+
+-----algo_bellman_ford.cpp-----
+	Implementarea algoritmului bellman_ford.
+
+-----algo_djikstra.cpp-----
+	Implementarea algoritmului djikstra.
+
+-----Alte mentiuni-----
+
+	Pentru altgorimul bellman_ford am folosit:
+https://www.geeksforgeeks.org/bellman-ford-algorithm-simple-implementation/
+	Pentru altgoritmul djikstra am folosit:
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
